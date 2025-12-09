@@ -49,6 +49,7 @@ public class Department {
 
     public void setName(String _name) {
         name = _name;
+        id = _name.charAt(0) - 'A';
     }
 
     /**
