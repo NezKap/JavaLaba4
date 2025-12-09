@@ -16,4 +16,8 @@ public class Department {
     public void setName(String _name) {
         name = _name;
     }
+    @Override
+    public String toString() {
+        return id + ", " + name;
+    }
 }
