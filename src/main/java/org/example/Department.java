@@ -7,5 +7,10 @@ public class Department {
         name = _name;
         id = _name.charAt(0) - 'A';
     }
-
+    public int getID() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
 }
